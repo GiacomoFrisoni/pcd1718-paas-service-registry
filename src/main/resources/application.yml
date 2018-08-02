@@ -1,0 +1,4 @@
+server.port: ${PORT:5000} # Port Eureka Server will listen on
+eureka.client.registerWithEureka: false
+eureka.client.fetchRegistry: false # dont't cache registry info locally
+eureka.server.waitTimeInMsWhenSyncEmpty: 5
