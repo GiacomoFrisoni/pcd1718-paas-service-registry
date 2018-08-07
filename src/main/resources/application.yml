@@ -1,4 +1,5 @@
-server.port: ${PORT:5000} # Port Eureka Server will listen on
+server.port: ${PORT:8761} # Port Eureka Server will listen on
 eureka.client.registerWithEureka: false
 eureka.client.fetchRegistry: false # dont't cache registry info locally
 eureka.server.waitTimeInMsWhenSyncEmpty: 5
+eureka.client.service-url.defaultZone: http://localhost:5001/eureka
